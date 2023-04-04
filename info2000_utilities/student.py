@@ -5,7 +5,7 @@ class Student:
         self.height = height
         self.major = major
         self.year = year
-        self.scores = scores
+        self.scores = scores.copy()
     def compute_average_score(self):
         #compute average
         if len(self.scores) == 0:
